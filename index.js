@@ -21,7 +21,7 @@ bot.on('message', function(message){
  		console.log(message.guild.channels.cache.filter(function (channel){return channel.type === 'voice'}))
 		
 
-		/*let voiceChannel = message.guild.channels.cache
+		let voiceChannel = message.guild.channels.cache
 			.filter(function(channel){return channel.type === 'voice'})
 			.first()
 		yts( x, function ( err, r ) {
@@ -50,9 +50,9 @@ bot.on('message', function(message){
 				
 				
 
-			})*/
+			})
 
 	}
  })
- //bot.login(process.env.TOKEN)
- bot.login('NzA0MzMzNzA3NzkxNjk1ODky.XqmBfA.jsC_THetZdCt18g_Z-cwlsHPLAk')
+ bot.login(process.env.TOKEN)
+
